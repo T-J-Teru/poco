@@ -70,6 +70,7 @@ private:
 	
 	friend class FileHandle;
 	friend class DirectoryIteratorImpl;
+	friend class WindowsDirectoryWatcherStrategy;
 	friend class FileStreamBuf;
 	friend class LogFileImpl;
 };
